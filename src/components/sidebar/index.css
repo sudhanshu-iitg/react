@@ -1,0 +1,112 @@
+.AirProbe_logo {
+    width: 100px;
+    height: 40.2px;
+    object-fit: contain;
+  
+  }
+  .dashboard {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    background-color: #ffffff;
+  }
+  .sites {
+    width: 20px;
+    height: 18.2px;
+    object-fit: contain;
+    background-color: #ffffff;
+  }
+  .defects {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    background-color: #ffffff;
+  }
+  .users {
+    width: 19px;
+    height: 19.7px;
+    object-fit: contain;
+    background-color: #ffffff;
+  }
+  .Configurations {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    background-color: #ffffff;
+  }
+  .activity {
+    width: 15px;
+    height: 19.3px;
+    object-fit: contain;
+    background-color: #ffffff;
+  }
+  .language {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    background-color: #ffffff;
+  }
+  .logout {
+    width: 18px;
+    height: 18.2px;
+    object-fit: contain;
+    background-color: #ffffff;
+    color: #ffffff;
+  }
+  
+  .active {
+    background: linear-gradient(266.69deg, #59AFFF 0.23%, #0882F3 99.28%);
+    border-radius: 8px;
+    width: 196px;
+    height: 48px;
+  }
+  
+  .active-closed {
+    background: linear-gradient(266.69deg, #59AFFF 0.23%, #0882F3 99.28%);
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .side-bar-menu {
+    display: flex;
+    align-items: center;
+    width: 196px;
+    height: 48px;
+    margin: 0px !important;
+    padding: 0px 0px 0px 16px !important;
+  }
+  
+  .side-bar-closed {
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    margin: 0px !important;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-height : 700px) {
+    .logo_display {
+      display: none;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
